@@ -58,12 +58,99 @@ http://referendum.2018.nat.gov.tw/pc/zh_TW/02/68000000800000370.html
 
 答案：是！以下是各投開票所結果之和，與中選會公佈的[總開票結果](http://referendum.2018.nat.gov.tw/pc/zh_TW/00/00000000000000000.html)完全一致。也就是說，不僅僅是網站報錯了，中選會的原始數據就是錯的！
 
-<img src="sum.png">
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>第7、8案</th>
+      <th>第8、9案</th>
+      <th>第10、11案</th>
+      <th>第14、15案</th>
+      <th>合集</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>不合理結果數量</th>
+      <td>23</td>
+      <td>19</td>
+      <td>12</td>
+      <td>141</td>
+      <td>184</td>
+    </tr>
+  </tbody>
+</table>
 
 # 更新 2
 
 那麼，結果報反的投票所有多少呢？如果把-1斜線附近的投票所都抓出來的話（詳情見代碼），以下為統計結果。可以看到，絕大多數的報反的案例出現在第14、15案，有141個，佔全國投票所數量的0.89%。這141個投票所的投票數為93306，佔全國總投票數的0.9%，對總的投票結果的影響應該不大。
-<img src="dubious.png">
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>同意票數</th>
+      <th>不同意票數</th>
+    </tr>
+    <tr>
+      <th>案件</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>第10案</th>
+      <td>7658008</td>
+      <td>2907429</td>
+    </tr>
+    <tr>
+      <th>第11案</th>
+      <td>7083379</td>
+      <td>3419624</td>
+    </tr>
+    <tr>
+      <th>第12案</th>
+      <td>6401748</td>
+      <td>4072471</td>
+    </tr>
+    <tr>
+      <th>第13案</th>
+      <td>4763086</td>
+      <td>5774556</td>
+    </tr>
+    <tr>
+      <th>第14案</th>
+      <td>3382286</td>
+      <td>6949697</td>
+    </tr>
+    <tr>
+      <th>第15案</th>
+      <td>3507665</td>
+      <td>6805171</td>
+    </tr>
+    <tr>
+      <th>第16案</th>
+      <td>5895560</td>
+      <td>4014215</td>
+    </tr>
+    <tr>
+      <th>第7案</th>
+      <td>7955753</td>
+      <td>2109157</td>
+    </tr>
+    <tr>
+      <th>第8案</th>
+      <td>7599267</td>
+      <td>2346316</td>
+    </tr>
+    <tr>
+      <th>第9案</th>
+      <td>7791856</td>
+      <td>2231425</td>
+    </tr>
+  </tbody>
+</table>
 
 [這裡](dubious_cases.csv)是所有有疑問的結果。
 
