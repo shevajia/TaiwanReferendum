@@ -58,7 +58,7 @@ http://referendum.2018.nat.gov.tw/pc/zh_TW/02/68000000800000370.html
 
 答案：是！以下是各投開票所結果之和，與中選會公佈的[總開票結果](http://referendum.2018.nat.gov.tw/pc/zh_TW/00/00000000000000000.html)完全一致。也就是說，不僅僅是網站報錯了，中選會的原始數據就是錯的！
 
-<img src="Sum.png">
+<img src="sum.png">
 
 # 更新 2
 
