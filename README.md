@@ -62,33 +62,6 @@ http://referendum.2018.nat.gov.tw/pc/zh_TW/02/68000000800000370.html
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>第7、8案</th>
-      <th>第8、9案</th>
-      <th>第10、11案</th>
-      <th>第14、15案</th>
-      <th>合集</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>不合理結果數量</th>
-      <td>23</td>
-      <td>19</td>
-      <td>12</td>
-      <td>141</td>
-      <td>184</td>
-    </tr>
-  </tbody>
-</table>
-
-# 更新 2
-
-那麼，結果報反的投票所有多少呢？如果把-1斜線附近的投票所都抓出來的話（詳情見代碼），以下為統計結果。可以看到，絕大多數的報反的案例出現在第14、15案，有141個，佔全國投票所數量的0.89%。這141個投票所的投票數為93306，佔全國總投票數的0.9%，對總的投票結果的影響應該不大。
-
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
       <th>同意票數</th>
       <th>不同意票數</th>
     </tr>
@@ -151,6 +124,34 @@ http://referendum.2018.nat.gov.tw/pc/zh_TW/02/68000000800000370.html
     </tr>
   </tbody>
 </table>
+
+# 更新 2
+
+那麼，結果報反的投票所有多少呢？如果把-1斜線附近的投票所都抓出來的話（詳情見代碼），以下為統計結果。可以看到，絕大多數的報反的案例出現在第14、15案，有141個，佔全國投票所數量的0.89%。這141個投票所的投票數為93306，佔全國總投票數的0.9%，對總的投票結果的影響應該不大。
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>第7、8案</th>
+      <th>第8、9案</th>
+      <th>第10、11案</th>
+      <th>第14、15案</th>
+      <th>合集</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>不合理結果數量</th>
+      <td>23</td>
+      <td>19</td>
+      <td>12</td>
+      <td>141</td>
+      <td>184</td>
+    </tr>
+  </tbody>
+</table>
+
 
 [這裡](dubious_cases.csv)是所有有疑問的結果。
 
